@@ -15,8 +15,8 @@ public class Main {
         TripulantePresentation.save(new Tripulante("700002", "Empleado2", "EmpleadoApellido2", "Piloto"));
         TripulantePresentation.save(new Tripulante("700003", "Empleado3", "EmpleadoApellido3", "Azafata"));
 
-        PasajeroPresentation.save(new Pasajero("800001", "Pasajero1", "PasajeroApellido1", "Ávila Provincia"));
-        PasajeroPresentation.save(new Pasajero("800002", "Pasajero2", "PasajeroApellido2", "Ávila Provincia"));
+        PasajeroPresentation.save(new Pasajero("800001", "Pasajero1", "PasajeroApellido1", "Avila Provincia"));
+        PasajeroPresentation.save(new Pasajero("800002", "Pasajero2", "PasajeroApellido2", "Avila Provincia"));
 
         AvionPresentation.save(new Avion("100001", "Pajarito", "Boing701", "200"));
         AvionPresentation.save(new Avion("100002", "Nube", "Boing705", "250"));

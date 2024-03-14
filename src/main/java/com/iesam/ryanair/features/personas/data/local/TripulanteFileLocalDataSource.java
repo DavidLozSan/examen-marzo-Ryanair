@@ -48,7 +48,7 @@ public class TripulanteFileLocalDataSource {
     public Tripulante findById(String id) {
         List<Tripulante> models = findAll();
         for (Tripulante model : models) {
-            if (Objects.equals(model.getId(), id)) {
+            if (Objects.equals(model.getDni(), id)) {
                 return model;
             }
         }
@@ -82,7 +82,7 @@ public class TripulanteFileLocalDataSource {
         List<Tripulante> newList = new ArrayList<>();
         List<Tripulante> models = findAll();
         for (Tripulante model : models) {
-            if (model.getId() != modelId) {
+            if (model.getDni() != modelId) {
                 newList.add(model);
             }
         }

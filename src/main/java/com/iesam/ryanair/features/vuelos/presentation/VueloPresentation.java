@@ -13,7 +13,7 @@ public class VueloPresentation {
 
     public static void obtain(String codigoAvion) {
         GetAvionInVueloUseCase getAvionInVueloUseCase = new GetAvionInVueloUseCase(new VueloDataRepository());
-        if (getAvionInVueloUseCase.execute().size() == 0) {
+        if (getAvionInVueloUseCase.execute(codigoAvion).size() == 0) {
             System.out.println("El avion esta disponible");
         } else {
             System.out.println("El avion esta ocupado");
