@@ -22,6 +22,6 @@ public class Main {
         AvionPresentation.save(new Avion("100002", "Nube", "Boing705", "250"));
         AvionPresentation.save(new Avion("100003", "Rayo", "Boing710", "100"));
 
-       // VueloPresentation.save(new Vuelo("1",""));
+        // VueloPresentation.save(new Vuelo("1",""));
     }
 }

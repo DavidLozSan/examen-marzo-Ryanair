@@ -32,4 +32,8 @@ public class Vuelo {
     public String getCodigo() {
         return codigo;
     }
+
+    public Avion getAvion() {
+        return avion;
+    }
 }

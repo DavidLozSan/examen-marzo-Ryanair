@@ -1,11 +1,13 @@
 package com.iesam.ryanair.features.aviones.data;
 
+import com.iesam.ryanair.features.aviones.data.local.AvionFileLocalDataSource;
 import com.iesam.ryanair.features.aviones.data.local.AvionMemLocalDataSource;
 import com.iesam.ryanair.features.aviones.domain.Avion;
 import com.iesam.ryanair.features.aviones.domain.AvionRepository;
 
 public class AvionDataRepository implements AvionRepository {
     private AvionMemLocalDataSource avionMemLocalDataSource;
+    private AvionFileLocalDataSource avionFileLocalDataSource;
 
     public AvionDataRepository() {
         this.avionMemLocalDataSource = avionMemLocalDataSource.newInstance();
